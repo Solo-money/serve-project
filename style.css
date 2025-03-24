@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* html, body{
+html{
     overflow-x: hidden;
-} */
+}
 
 nav{
     position: sticky;
@@ -606,7 +606,7 @@ h3.head{
 
     .innovation-section .text{
         font-size: 0.6rem;
-        padding-right: 1em;
+        padding-right: 2em;
     }
 
     /* OUR CORE VALUES */
