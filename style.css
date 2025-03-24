@@ -192,6 +192,7 @@ nav .links a{
 .innovation-section .contain .sub-sec{
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     /* justify-content: center; */
 }
 
@@ -604,9 +605,11 @@ h3.head{
         font-size: 1.2rem;
     }
 
-    .innovation-section .text{
+    .innovation-section div.text{
         font-size: 0.6rem;
         padding-right: 2em;
+        max-width: 100%;
+        text-align: center;
     }
 
     /* OUR CORE VALUES */
