@@ -587,6 +587,7 @@ h3.head{
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
+        margin-right: 2em;
     }
 
     .innovation-section img{
