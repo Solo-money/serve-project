@@ -506,7 +506,7 @@ h3.head{
     }
 
     nav {
-        /* background-color: aquamarine; */
+        background-color: aquamarine;
         display: flex;
         flex-direction: column;
         width: 100vw;
@@ -610,6 +610,7 @@ h3.head{
         font-size: 0.6rem;
         padding-right: 2em;
         max-width: 100%;
+        width: 90%;
         text-align: center;
     }
 
