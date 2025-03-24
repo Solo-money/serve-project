@@ -1,0 +1,658 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* html, body{
+    overflow-x: hidden;
+} */
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: hsla(0, 0%, 100%, 0.937);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1.5em 1.5em;
+}
+
+.links{
+    display: flex;
+    gap: 3em;
+    color: #BABABA;
+}
+
+nav .links a{
+    text-decoration: none;
+    color: #BABABA;
+}
+
+/* a:hover{
+    text-decoration: underline;
+} */
+
+/* HERO SECTION */
+.hero-section{
+    background-image: url(./Assets/military\ image.png);
+    /* width: 100vw; */
+    height: 100vh;
+    background-position: center;
+    /* text-align: center; */
+}
+
+.hero-section > div{
+   background-color: hsla(0, 0%, 0%, 0.677);
+   height: 100vh;
+}
+
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    /* margin: 0 15em; */
+}
+
+.hero-section .container p{
+    text-align: center;
+    /* width: 70ch; */
+}
+
+.hero-section .container .hero-buttons{
+    display: flex;
+    gap: 5em;
+}
+
+.button{
+    padding: 1em 3em;
+    border-radius: 3em;
+    border-style: none;
+}
+
+.one{
+    background-color: #FFCA0A;
+}
+
+.hero-buttons .two{
+    padding: 1em 5em;
+}
+
+/* HELP SECTION */
+.our-approach-section{
+    padding-top: 3em;
+}
+
+.help-section{
+    background: #F6F6F6;
+    padding: 1.5em 0 0.5em 0;
+}
+
+.help-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .help-section .container h1{
+    
+} */
+
+
+/* OUR APPROACH SECTION */
+
+.our-approach-section .container .our-approach-section-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10em;
+    margin: 5em 0;
+    justify-items: center;
+}
+
+/* .our-approach-section .container{
+    padding-left: 6em;
+} */
+
+.our-approach-section img{
+    width: 100%;
+    /* max-width: 620px; */
+    height: auto;  
+    max-height: 400px;
+    border-radius: 30px;
+}
+
+/* .our-approach-section img:nth-of-type(1){
+    height: 400px;
+} */
+
+.our-approach-section .container h1{
+    text-align: center;
+}
+
+.our-approach-section .container .our-approach-section-body .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-row,.third-row{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 7em;
+}
+
+.second-row{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 7em;
+    /* width: 100%; */
+    /* gap: 30; */
+}
+
+ 
+
+
+.row .text{
+    /* width: 45%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.row .text a{
+    text-decoration: none;
+    color: #FFC907;
+    ;
+}
+/* .first-row .image img{
+    
+    width: 30rem;
+} */
+/* INNOVATION SECTION */
+.innovation-section {
+    /* width: 100%; */
+    background: #434343;
+    padding: 7em 1em;
+}
+.innovation-section .contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    /* margin: 0 30px; */
+    /* grid-template-columns: repeat(autofill, minmax(200px,1fr)); */
+    /* margin-left: 10em; */
+
+}
+
+.innovation-section .contain .sub-sec{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.innovation-section p{
+    text-align: justify;
+    /* width: 100%; */
+}
+
+.innovation-section img{
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+
+.innovation-section .image .name{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    margin: 0.5em 1em 0 1em;
+    /* gap: 5em; */
+}
+
+.innovation-section .image .name .text {
+    width: 25ch;
+    color: white;
+    font-size: 1.3em;
+    /* display: inline; */
+}
+
+.innovation-section .image .name img{
+    width: 3em;
+}
+
+
+/* OUR CORE VALUES */
+
+.core-values-section{
+    margin-top: 5em;
+}
+
+div.images{
+    display: flex;
+    /* gap: 10em */
+    justify-content: space-around;
+    margin: 0 16em;
+    z-index: 1;
+    margin-top: 5em;
+}
+
+
+
+div.images img{
+    width: 5em;
+    border-radius: 50%;
+    position: relative;
+    top: 1.7em;
+    /* margin-left: 10px; */
+}
+
+div.body .down{
+    position: relative;
+    top: 6em;
+    z-index: 1;
+}
+
+div.upper{
+    display: flex;
+    /* gap:10em; */
+    justify-content: space-around;
+    background-color: #FFC907;
+    border-radius: 5em;
+    padding: 20px;
+    margin: 0 10em;
+}
+
+div.upper p:nth-child(2) , div.upper p:nth-child(3){
+    margin-right: 45px;
+}
+
+div.lower{
+    display: flex;
+    /* gap:10em; */
+    justify-content: space-between;
+    /* gap: 15em; */
+    background-color: #FFC907;
+    border-radius: 5em;
+    padding: 20px 6em;
+    margin: 5em 15.5em;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20em 0 2em 0;
+}
+
+footer .footer-body{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+footer .container .first{
+    width: 50ch;
+}
+
+footer ul {
+    list-style:none;
+}
+
+.icons img{
+    /* display: flex;
+    gap: 2em; */
+    margin-left: 0.5em;
+}
+
+.icons img:hover{
+   border:2px solid white;
+   cursor: pointer;
+   transition:100ms ease-in-out;
+   border-radius: 15px;
+}
+.copyright{
+    text-align: center;
+}
+
+
+/* UTILITY CLASSES */
+
+.container{
+    margin:0 100px;
+    padding-bottom: 2em;
+}
+
+.small{
+   font-size: 1.2em;
+   line-height: 1.7;
+   font-family: sans-serif;
+   /* color: white; */
+}
+
+.large{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
+.medium{
+    font-size: 1.5em;
+    font-family: sans-serif
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+h3.head{
+    font-size: 1.4em;
+    font-family: sans-serif;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* MAX-WIDTH: 850PX  AND MIN-WIDTH: 1000PX */
+@media (min-width:1100px) and (max-width:1300px){
+
+    .container{
+        margin: 0 60px;
+    }
+
+    .links{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    nav .small{
+        font-size: 1em;
+    }
+
+    .hero-section .large{
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    /*  */
+
+    /* OUR CORE VALUES SECTION */
+    
+  }
+
+  
+/* MAX-WIDTH: 500PX AND MIN-WIDTH: 850PX */
+
+@media (min-width:600px) and (max-width:1100px){
+
+    .container{
+        margin: 0 50px;
+    }
+
+    .links{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    nav .small{
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .hero-section .large{
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    nav .button{
+        /* padding: 0.5em 1.5em; */
+        display: none;
+    }
+
+
+    /*  OUR APPROACH SECTION */
+    .our-approach-section .our-approach-section-body{
+        margin: 0 2em;
+    }
+
+    .our-approach-section .row {
+        display: grid;
+        /* align-items: center; */
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .our-approach-section .our-approach-section-body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .first-row .text , .third-row .text {
+        order:2;
+    }
+
+    /* .second-row{
+        margin-left: 200px;
+    } */
+
+    .innovation-section .contain{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .sub-sec{
+        order: 2;
+
+    }
+
+    
+    /* OUR CORE VALUES */
+    div.images{
+        margin: 0;
+    }
+
+    div.images img{
+        width:5em;
+        top:1em;
+    }
+
+    div.upper{
+        display:flex;
+        /* justify-content: ; */
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+    }
+
+    div.lower{
+        margin:0 10em;
+    }
+
+    div.body .down{
+        top:0.5em;
+    }
+
+    .core-values-section .small{
+        font-size: 0.7rem;
+    }
+
+
+
+    /* FOOTER */
+  footer .footer-body{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+
+}
+
+
+/* MAX-WIDTH: 340PX AND MIN-WIDTH: 500PX  */
+
+@media (max-width:600px){
+
+    .container{
+       margin: 0 10px;
+    }
+
+    nav {
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    nav div:first-child{
+        /* width: 5em;
+        height: 2em; */
+        text-align: center;
+    }
+
+    nav img{
+        /* width: 100%; */
+        /* width: 10em; */
+        height: 3em;
+    }
+
+    nav .links {
+        display: flex;
+        justify-content: center;
+        /* margin: 0 30px; */
+        /* text-align: center; */
+    }
+
+    nav .small{
+        font-size: 0.5em;
+    }
+
+    nav .button{
+        display: none;
+    }
+
+    /* HERO SECTION */
+    .hero-section .large{
+        /* width: 150vw; */
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero-section .small{
+        font-size: 0.8rem;
+    }
+
+    .hero-section .container .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 2.5em;
+        /* margin:  5em 0; */
+    }
+
+    .hero-section .container .hero-buttons button{
+        margin:  0 2em;
+    }
+
+     /*  OUR APPROACH SECTION */
+     .our-approach-section .our-approach-section-body{
+        margin: 0 3em;
+    }
+
+    .our-approach-section .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .first-row .text , .third-row .text {
+        order:2;
+    }
+
+    /* INNOVATION SECTION */
+
+    .innovation-section{
+        padding: 7em  0.5em;
+        /* padding-right: 10em; */
+    }
+
+    .innovation-section .contain{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .innovation-section img{
+        max-width: 300px;
+    }
+
+    .sub-sec{
+        order: 2;
+    }
+
+    .innovation-section .large{
+        font-size: 1.5rem;
+    }
+
+    .innovation-section .medium{
+        font-size: 1.2rem;
+    }
+
+    .innovation-section .text{
+        font-size: 0.6rem;
+        padding-right: 1em;
+    }
+
+    /* OUR CORE VALUES */
+    div.images{
+        margin: 0;
+    }
+
+    div.images img{
+        width:3em;
+        top:1em;
+    }
+
+    div.upper{
+        display:flex;
+        /* justify-content: ; */
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+    }
+
+    div.lower{
+        margin:0;
+    }
+
+    div.body .down{
+        top:0.5em;
+    }
+
+    .core-values-section .small{
+        font-size: 0.7rem;
+    }
+
+      /* FOOTER */
+  footer .footer-body{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  footer .first .small{
+    font-size: 0.8rem;
+    width: 50ch;
+  }
+
+  footer .first p{
+    padding-right: 1em;
+  }
+}
+
